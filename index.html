@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Happy Birthday Honey Madam!</title>
+  <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+
+<!-- Confetti Canvas -->
+<canvas id="confetti-canvas"></canvas>
+
+<!-- Floating Text -->
+<div id="floating-text">🎉 Happy Birthday Honey Madam 🎂</div>
+
+<!-- Navigation -->
+<div class="navbar">
+  <div class="hamburger" onclick="toggleMenu()">☰</div>
+  <div class="menu" id="menu">
+    <a href="about.html">About</a>
+    <a href="memories.html">Memories</a>
+    <a href="Story 91.html">Story of 91</a>
+  </div>
+</div>
+
+<!-- Landing Page -->
+<div id="landing">
+  <h1>🎈 Happy Birthday Honey Madam! 🎈</h1>
+  <p>Click below to chat with your Sana sir 💬</p>
+  <button id="open-chat-btn">Your Sana is Here</button>
+</div>
+
+<!-- Chat Interface -->
+<div id="chat-container">
+  <div id="chat-header">Chat with Sana 💬</div>
+  <div id="chat-messages"></div>
+  <div id="chat-input-area">
+    <input type="text" id="chat-input" placeholder="Ask your Sana..." />
+    <button id="chat-send-btn" disabled>Send</button>
+  </div>
+</div>
+
+<!-- Music -->
+<audio id="bg-music" src="Honey-Birthday/Honey.mp3" loop></audio>
+<script src="script.js"></script>
+</body>
+</html>
